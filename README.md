@@ -1,2 +1,3 @@
 # TMS_C32_Lesson_8
-Problem TODO solving
+
+Solving TODO tasks specified within the project
