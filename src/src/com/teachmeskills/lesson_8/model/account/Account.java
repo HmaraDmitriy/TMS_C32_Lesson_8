@@ -2,8 +2,8 @@ package com.teachmeskills.lesson_8.model.account;
 
 public class Account {
 
-    String accountNumber;
-    double amount;
+  private  String accountNumber;
+  private  double amount;
 
     public Account(String accountNumber, double amount) {
         this.accountNumber = accountNumber;

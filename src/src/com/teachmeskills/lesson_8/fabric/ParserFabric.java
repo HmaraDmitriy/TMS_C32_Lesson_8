@@ -16,8 +16,7 @@ public class ParserFabric {
        } else if (fileName.endsWith(".Txt")) {
            return new TxtDocumentParser();
        } else {
-           System.out.println("Unknown format");
-        return null;
+           throw new IllegalArgumentException("Unknown format : " + fileName);
        }
        // TODO (опционально) * попробовать переписать на конструкцию switch-case, может это будет более ёмкая запись +
 
